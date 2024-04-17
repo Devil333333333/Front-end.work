@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="user">
+                <img src="https://source.unsplash.com/random/100x100/?avatar">
+                <h3>Hello Evano</h3>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#"><i class="fas fa-chart-line"></i> Dashboard</a></li>
+                    <li><a href="#"><i class="fas fa-shopping-cart"></i> Product</a></li>
+                    <li><a href="#"><i class="fas fa-users"></i> Customers</a></li>
+                    <li><a href="#"><i class="fas fa-chart-pie"></i> Income</a></li>
+                    <li><a href="#"><i class="fas fa-bullhorn"></i> Promote</a></li>
+                    <li><a href="#"><i class="fas fa-cogs"></i> Help</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="search">
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="customer-list">
+                <h2>All Customers</h2>
+                <div class="filter">
+                    <select>
+                        <option value="">Active Members</option>
+                        <option value="">Inactive</option>
+                    </select>
+                </div>
+                <div class="table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Customer Name</th>
+                                <th>Company</th>
+                                <th>Phone Number</th>
+                                <th>Email</th>
+                                <th>Country</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Jane Cooper</td>
+                                <td>Microsoft</td>
+                                <td>225555-0118</td>
+                                <td>jane@microsoft.com</td>
+                                <td>United States</td>
+                                <td><span class="active">Active</span></td>
+                            </tr>
+                            <tr>
+                                <td>Jane Cooper</td>
+                                <td>Microsoft</td>
+                                <td>225555-0118</td>
+                                <td>jane@microsoft.com</td>
+                                <td>United States</td>
+                                <td><span class="inactive">inactive</span></td>
+                            </tr>
+                            <tr>
+                                <td>Jane Cooper</td>
+                                <td>Microsoft</td>
+                                <td>225555-0118</td>
+                                <td>jane@microsoft.com</td>
+                                <td>United States</td>
+                                <td><span class="inactive">inactive</span></td>
+                            </tr>
+                            <tr>
+                                <td>Jane Cooper</td>
+                                <td>Microsoft</td>
+                                <td>225555-0118</td>
+                                <td>jane@microsoft.com</td>
+                                <td>United States</td>
+                                <td><span class="inactive">Active</span></td>
+                            </tr>
+                            <tr>
+                                <td>Jane Cooper</td>
+                                <td>Microsoft</td>
+                                <td>225555-0118</td>
+                                <td>jane@microsoft.com</td>
+                                <td>United States</td>
+                                <td><span class="active">Active</span></td>
+                            </tr>
+                            <tr>
+                                <td>Jane Cooper</td>
+                                <td>Microsoft</td>
+                                <td>225555-0118</td>
+                                <td>jane@microsoft.com</td>
+                                <td>United States</td>
+                                <td><span class="active">Active</span></td>
+                            </tr>
+                            <tr>
+                                <td>Jane Cooper</td>
+                                <td>Microsoft</td>
+                                <td>225555-0118</td>
+                                <td>jane@microsoft.com</td>
+                                <td>United States</td>
+                                <td><span class="active">Active</span></td>
+                            </tr>
+                            <tr>
+                                <td>Jane Cooper</td>
+                                <td>Microsoft</td>
+                                <td>225555-0118</td>
+                                <td>jane@microsoft.com</td>
+                                <td>United States</td>
+                                <td><span class="inactive">inactive</span></td>
+                            </tr>
+                            <!-- More rows... -->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="pagination">
+                    <p>Showing data 1 to 8 of 256K entries</p>
+                    <div class="pages">
+                        <a href="#"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
